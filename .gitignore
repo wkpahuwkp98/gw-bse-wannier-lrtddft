@@ -1,0 +1,18 @@
+# 编辑器 / 工具配置
+.claude/
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地参考资料与旧版本（不随仓库发布）
+*.pdf
+*.PDF
+exciton_re.md
+
+# 临时文件
+*.tmp
+~$*
