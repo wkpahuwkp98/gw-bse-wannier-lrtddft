@@ -4,6 +4,10 @@
 
 正文见 **[exciton-tddft.md](exciton-tddft.md)**（GitHub 可直接渲染，含 LaTeX 公式）。
 
+> **无法访问 GitHub？**
+> 本文档在 **[allergicrosen.xyz/p/excition_re](https://allergicrosen.xyz/p/excition_re/)** 有镜像页面，国内网络可直接打开。
+> 注意：**镜像站的更新会滞后**，本仓库里的内容才是最新的；需要最新版本或想提 Issue 请以 GitHub 为准。
+
 这份讲义想解决的是一个具体的困难：激子、准粒子、激发态这几套语言在文献里分散于凝聚态多体理论、量子化学和含时密度泛函三个传统，符号约定各不相同。初学者往往能在各自的框架内推导，却接不上"同一个物理量在另一套语言里长什么样"。本文按一条主线串起来——先把多体哈密顿量用二次量子化写清楚，再由它导出激子模型与 Wannier 方程，然后分别走向 GW-BSE（多体微扰）和 RT/LR-TDDFT（含时密度泛函），最后落到实际可用的 OT-SRSH 泛函。
 
 ## 内容概览
@@ -48,8 +52,12 @@ git clone https://github.com/wkpahuwkp98/gw-bse-wannier-lrtddft.git
 ## 说明
 
 - 公式编号在全文连续（至 (477)），便于交叉引用与回查。
-- 本文目前未附参考文献列表，文中提及的方法请按人名与年份自行检索原始文献（Tully、Onida-Reining-Helbig 的 GW 综述、Rohlfing-Louie 的 BSE 工作、Runge-Gross 定理、Baer-Kronik 的 OT-SRSH 等）。
-- 讲义为学习整理性质，公式推导如与原始文献不符，以原始文献为准；欢迎提 Issue 指正。
+- 文末附 **[延伸阅读与原始文献](exciton-tddft.md#延伸阅读与原始文献)**，按主题分组：多体方法、激子理论、Wannier 方程、GW 近似、Bethe–Salpeter 方程、TDDFT、OT-SRSH。这部分由整理者补充，用于回溯方法的原始出处，**并非正文的行内引用**——正文未做文献标注。
+- 讲义为学习整理性质，公式推导与文献信息如与原始出版物不符，以原始文献为准；欢迎提 Issue 指正。
+
+## 相关仓库
+
+- **[cp2k-nac-fssh](https://github.com/wkpahuwkp98/cp2k-nac-fssh)** —— 非绝热载流子动力学的中文教程：从 Tully 的 FSSH 推导到 PYXAID / CP2K 实操，含 CP2K 高斯基 NAC 计算脚本。本文讲的是"激发态怎么描述"，那边讲的是"激发态怎么动"，可对照阅读。
 
 ## 许可
 

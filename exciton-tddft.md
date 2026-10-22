@@ -3428,3 +3428,66 @@ $$\varepsilon_i^{\text{OT-SRSH}} \approx \varepsilon_i^{(0)} + \langle \phi_i^{(
 >
 > - 因此我们在做 RSH 或者 GW 计算时候可以直接使用 PBE 的波函数。
 
+---
+
+# 延伸阅读与原始文献
+
+> **关于本节的说明**
+>
+> 以下文献由整理者补充，用于回溯正文所述方法的原始出处与进一步阅读。**它们不是正文的行内引用**——正文未做文献标注，条目与章节之间也不存在严格的一一对应关系，按主题分组仅供参考。
+>
+> 卷期页码经过核对，若与出版方记录有出入，以出版方记录为准。
+
+## 一、二次量子化与多体理论（教材）
+
+1. A. L. Fetter, J. D. Walecka, *Quantum Theory of Many-Particle Systems*, McGraw-Hill, 1971；Dover 重印, 2003.
+2. H. Bruus, K. Flensberg, *Many-Body Quantum Theory in Condensed Matter Physics: An Introduction*, Oxford University Press, 2004.
+3. G. D. Mahan, *Many-Particle Physics*, 3rd ed., Kluwer/Plenum, 2000.
+
+## 二、激子的概念与早期理论
+
+4. J. Frenkel, On the transformation of light into heat in solids. I, *Phys. Rev.* **37**, 17 (1931).
+5. G. H. Wannier, The structure of electronic excitation levels in insulating crystals, *Phys. Rev.* **52**, 191 (1937).
+6. R. J. Elliott, Intensity of optical absorption by excitons, *Phys. Rev.* **108**, 1384 (1957).
+7. R. S. Knox, *Theory of Excitons* (Solid State Physics, Supplement 5), Academic Press, 1963.
+
+## 三、Wannier 方程与激子的多体推导
+
+8. L. J. Sham, T. M. Rice, Many-particle derivation of the effective-mass equation for the Wannier exciton, *Phys. Rev.* **144**, 708 (1966).
+9. W. Hanke, L. J. Sham, Dielectric response in the Wannier representation: application to the optical spectrum of diamond, *Phys. Rev. B* **12**, 4501 (1975).
+10. W. Hanke, L. J. Sham, Many-particle effects in the optical spectrum of a semiconductor, *Phys. Rev. B* **21**, 4656 (1980).
+
+## 四、GW 近似与准粒子能带
+
+11. L. Hedin, New method for calculating the one-particle Green's function with application to the electron-gas problem, *Phys. Rev.* **139**, A796 (1965).
+12. M. S. Hybertsen, S. G. Louie, Electron correlation in semiconductors and insulators: band gaps and quasiparticle energies, *Phys. Rev. B* **34**, 5390 (1986).
+13. F. Aryasetiawan, O. Gunnarsson, The GW method, *Rep. Prog. Phys.* **61**, 237 (1998).
+14. G. Onida, L. Reining, A. Rubio, Electronic excitations: density-functional versus many-body Green's-function approaches, *Rev. Mod. Phys.* **74**, 601 (2002).
+
+## 五、Bethe–Salpeter 方程与激子光谱
+
+15. G. Strinati, Application of the Green's functions method to the study of the optical properties of semiconductors, *Riv. Nuovo Cimento* **11**, 1 (1988).
+16. S. Albrecht, L. Reining, R. Del Sole, G. Onida, Ab initio calculation of excitonic effects in the optical spectra of semiconductors, *Phys. Rev. Lett.* **80**, 4510 (1998).
+17. M. Rohlfing, S. G. Louie, Electron-hole excitations and optical spectra from first principles, *Phys. Rev. B* **62**, 4927 (2000).
+
+## 六、含时密度泛函理论（RT- 与 LR-TDDFT）
+
+18. E. Runge, E. K. U. Gross, Density-functional theory for time-dependent systems, *Phys. Rev. Lett.* **52**, 997 (1984).
+19. M. E. Casida, Time-dependent density functional response theory for molecules, in *Recent Advances in Density Functional Methods, Part I*, World Scientific, 1995, p. 155.
+20. M. Petersilka, U. J. Gossmann, E. K. U. Gross, Excitation energies from time-dependent density-functional theory, *Phys. Rev. Lett.* **76**, 1212 (1996).
+21. K. Yabana, G. F. Bertsch, Time-dependent local-density approximation in real time, *Phys. Rev. B* **54**, 4484 (1996).
+22. M. A. L. Marques, E. K. U. Gross, Time-dependent density functional theory, *Annu. Rev. Phys. Chem.* **55**, 427 (2004).
+23. C. A. Ullrich, *Time-Dependent Density-Functional Theory: Concepts and Applications*, Oxford University Press, 2012.
+
+## 七、最优调控范围分离杂化泛函（OT-SRSH）
+
+24. T. Stein, H. Eisenberg, L. Kronik, R. Baer, Fundamental gaps in finite systems from eigenvalues of a generalized Kohn-Sham method, *Phys. Rev. Lett.* **105**, 266802 (2010).
+25. L. Kronik, T. Stein, S. Refaely-Abramson, R. Baer, Excitation gaps of finite-sized systems from optimally tuned range-separated hybrid functionals, *J. Chem. Theory Comput.* **8**, 1515 (2012).
+26. S. Refaely-Abramson, M. Jain, S. Sharifzadeh, J. B. Neaton, L. Kronik, Solid-state optical absorption from optimally tuned time-dependent range-separated hybrid density functional theory, *Phys. Rev. B* **92**, 081204 (2015).
+
+---
+
+> **免责说明**
+>
+> 本讲义为个人学习整理，非正式出版物。公式推导、符号约定与物理结论可能存在疏漏或笔误；文献条目虽经核对，仍可能与出版方记录存在细微出入。**任何引用、复现或据此开展的研究，请以原始文献与出版方记录为准。** 作者不对因使用本文内容导致的任何结果承担责任。发现错误欢迎在仓库提 Issue 指正。
+
